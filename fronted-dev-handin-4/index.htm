@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>4th Handin Toms Donis</title>
+    <link rel="stylesheet" href="style/style.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi|Roboto" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+       <h1 id="logo">BITTRAC</h1>
+    </div>
+    
+    <div class="BTC-wrapper">
+        <div class="container">
+            <img id="bicoin-image" src="images/Bitcoin.svg.png" alt="bitcoin coin">
+        </div>
+        <div class="container">
+                <h2 id="btc-value"></h2>
+        </div>
+    </div>
+    
+
+    <div class="container currency-values">
+        <div class="row">
+            <div class="card" >
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item" id="ask"></li>
+                    <li class="list-group-item" id="bid"></li>
+                    <li class="list-group-item" id="last"></li>
+                    <li class="list-group-item" id="high"></li>
+                    <li class="list-group-item" id="low"></li>
+                    <li class="list-group-item" id="volume"></li>
+                    <li class="list-group-item" id="volume_percent"></li>
+                </ul>
+            </div>
+            <div class="card" >
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item" id="percentHour"></li>
+                    <li class="list-group-item" id="percentDay"></li>
+                    <li class="list-group-item" id="percentWeek"></li>
+                    <li class="list-group-item" id="percentMonth"></li>
+                    <li class="list-group-item" id="percent3Month"></li>
+                    <li class="list-group-item" id="percent6Month"></li>
+                    <li class="list-group-item" id="percentYear"></li>
+                </ul>
+            </div>
+            <div class="card" >
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item" id="priceHour"></li>
+                    <li class="list-group-item" id="priceDay"></li>
+                    <li class="list-group-item" id="priceWeek"></li>
+                    <li class="list-group-item" id="priceMonth"></li>
+                    <li class="list-group-item" id="price3Month"></li>
+                    <li class="list-group-item" id="price6Month"></li>
+                    <li class="list-group-item" id="priceYear"></li>
+                </ul>
+            </div>
+            <div class="card" >
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item" id="eur"></li>
+                    <li class="list-group-item" id="gbp"></li>
+                    <li class="list-group-item" id="jpy"></li>
+                    <li class="list-group-item" id="chf"></li>
+                    <li class="list-group-item" id="aud"></li>
+                    <li class="list-group-item" id="cad"></li>
+                    <li class="list-group-item" id="nzd"></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+<script src="./build/app.bundle.js"></script>
+</body>
+</html>

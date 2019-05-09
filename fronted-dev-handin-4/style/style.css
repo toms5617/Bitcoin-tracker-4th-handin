@@ -1,0 +1,72 @@
+body {
+  background-image: url("../images/vawe1.gif");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+
+.header #logo {
+  padding-top: 20px;
+  margin-left: 80px;
+  font-family: 'Gugi', cursive;
+  color: white;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.container #bicoin-image {
+  width: 256px;
+  height: 256px;
+  border-radius: 100%;
+}
+
+.container h2 {
+  display: block;
+  color: white;
+}
+
+.container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .row .card {
+  max-width: 300px;
+  margin: 10px;
+}
+
+.currency-values .row {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.currency-values .row .card {
+  width: 240px;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .currency-values .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
